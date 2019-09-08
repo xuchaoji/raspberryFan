@@ -13,6 +13,8 @@
 ![image](https://github.com/xuchaoji/raspberryFan/blob/master/PiGPIO.png)
 
 ## 脚本说明
+温度大于T_High后，风扇开始运行  
+温度低于T_Low后，风扇停止运行  
 将项目clone到本地后，在目录中python fan.py即可运行脚本。  
 建议配合screen使用，步骤如下：  
 创建screen： screen -S fan  
