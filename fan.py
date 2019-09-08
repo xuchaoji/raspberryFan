@@ -3,7 +3,6 @@ import RPi.GPIO as GPIO
 import time
 import commands
 
-# 温度高于T_HIGH风扇开始运行，低于T_LOW风扇关闭
 T_HIGH = 50
 T_LOW = 42
 fan_pin = 12
