@@ -1,12 +1,15 @@
 # raspberryFan
 ## 图片说明
 使用的三极管型号为S8550，三极管的引脚图见S8550-pinout.png
+
 ![image](https://github.com/xuchaoji/raspberryFan/blob/master/S8550-pinout.png)
 
 接线图见pi_fan.jpg
+
 ![image](https://github.com/xuchaoji/raspberryFan/blob/master/pi_fan.jpg)
 
 树莓派GPIO引脚图见PiGPIO.png
+
 ![image](https://github.com/xuchaoji/raspberryFan/blob/master/PiGPIO.png)
 
 ## 脚本说明
