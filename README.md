@@ -13,12 +13,12 @@
 ![image](https://github.com/xuchaoji/raspberryFan/blob/master/PiGPIO.png)
 
 ## 脚本说明
-将项目clone到本地后，在目录中python fan.py即可运行脚本。
-建议配合screen使用，步骤如下：
-创建screen： screen -S fan
-启动脚本：python fan.py
-断开screen：Ctrl+A+D
-恢复screen：screen -r fan
+将项目clone到本地后，在目录中python fan.py即可运行脚本。  
+建议配合screen使用，步骤如下：  
+创建screen： screen -S fan  
+启动脚本：python fan.py  
+断开screen：Ctrl+A+D  
+恢复screen：screen -r fan  
 
 ## 脚本开机启动
 编辑/etc/rc.local 在其中加入如下命令:
