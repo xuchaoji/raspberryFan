@@ -23,19 +23,13 @@
 ## 脚本开机启动
 编辑/etc/rc.local 在其中加入如下命令:
 
-screen -dmS fan sh
-
-screen -S fan -X stuff "bash
-
-"
-
-screen -S fan -X stuff "cd /root/onBoot
-
-"
-
-screen -S fan -X stuff "python /root/onBoot/fan.py
-
-"
+screen -dmS fan sh  
+screen -S fan -X stuff "bash  
+"  
+screen -S fan -X stuff "cd /root/onBoot  
+"  
+screen -S fan -X stuff "python /root/onBoot/fan.py  
+"  
 
 
 **其中的/root/onBoot为fan.py的存放目录，右引号必须换行，否则想当于输入命令没回车，传入screen的命令不能执行**
