@@ -21,4 +21,6 @@ while 1:
         GPIO.output(fan_pin, 0)
     if gpu_temp_loop < T_LOW:
         GPIO.output(fan_pin, 1)
-    time.sleep(1)
+    time.sleep(3)
+    if GPIO.input(fan_pin) == 0:
+        print 'fan is working...'
